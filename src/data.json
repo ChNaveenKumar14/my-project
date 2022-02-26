@@ -1,16 +1,15 @@
 
-export var Json = [{
+[{
     "emp_name": "David",
     "emp_id": "1",
     "emp_address": "southafrica",
     "emp_designation": "backend developer",
     "emp_experience": "Have 2 years of experience in Big Data and Analytics.",
-    "emp_salary": "100000",
-    "emp_photo_path": "",
+    "emp_salary": "100000rs",
+    "emp_photo_path": "logo192.png",
     "title": "Product developement",
     "referenceto": "jason smith",
-    "department": "release management",
-    "emptype": "customer facing"
+    "department": "release management"
 },
 {
     "emp_name": "Morgan",
@@ -18,7 +17,7 @@ export var Json = [{
     "emp_address": "england",
     "emp_designation": "frontend developer",
     "emp_experience": "Have 5 years of experience in web developement",
-    "emp_salary": "15L",
+    "emp_salary": "15Lakhs",
     "emp_photo_path": "/public/images/12345.png",
     "title": "Product developement",
     "referenceto": "jason smith",
@@ -32,7 +31,7 @@ export var Json = [{
     "emp_address": "australia",
     "emp_designation": ".net developer",
     "emp_experience": "Have 2 years of experience in .net",
-    "emp_salary": "4L",
+    "emp_salary": "4Lakhs",
     "emp_photo_path": "/public/images/12345.png",
     "title": "Product developement",
     "referenceto": "jason smith",
@@ -46,7 +45,7 @@ export var Json = [{
     "emp_address": "newzeland",
     "emp_designation": "Manager",
     "emp_experience": "Have 10 years of experience in financial services",
-    "emp_salary": "6L",
+    "emp_salary": "6Lakhs",
     "emp_photo_path": "/public/images/12345.png",
     "title": "Product developement",
     "referenceto": "jason smith",
@@ -65,6 +64,6 @@ export var Json = [{
     "referenceto": "jason smith",
     "department": "release management",
     "emptype": "customer facing"
-},
+}
 
 ]
