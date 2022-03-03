@@ -8,12 +8,13 @@ const EmpList = () => {
         // console.log(loccation?.state?.data)
         setEMp(loccation?.state?.data)
     }, [loccation])
+    console.log(emp?.photo)
     return (
         <>
-            <div className='container mt-5' style={{ width: '500px',height:"400px",border:"1px solid black" }}>
+            <div className='container mt-5' style={{ width: '500px',height:"500px",border:"1px solid black" }}>
                 <div className='row'>
                     <div className='col'>
-                        <img className='img-fluid' src="business.jpg" width="100%" />
+                        <img className='img-fluid' src={emp?.photo}/>
                     </div>
 
                 </div>

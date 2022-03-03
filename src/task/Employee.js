@@ -87,13 +87,17 @@ const Employee = () => {
                                                     <>
                                                         <div className="row">
                                                             <div className="col-3">
-
+                                                               
+                                                                <div key={item?.emp_id}>
+                                                                            <img className="img-fluid" src={item.photo} />
+                                                                        </div>
                                                             </div>
                                                             <div className="col-7">
                                                                 <div
                                                                     key={item.emp_id}
                                                                     onClick={() => handleEmpInfo(item)}
                                                                 >
+                                                                    
                                                                     <div>
                                                                         <h6>{item?.emp_name}</h6>
                                                                     </div>
@@ -111,9 +115,9 @@ const Employee = () => {
                                 </div>
                             ))}
                         </div>
-                        <div  style={{position:"absolute",marginLeft:"350px",marginBottom:"100px"}} >
-      <i style={{fontSize:"40px"}} className="fa">&#xf0b0;</i>
-      </div>
+                        <div style={{ position: "absolute", marginLeft: "350px", marginBottom: "100px" }} >
+                            <i style={{ fontSize: "40px" }} className="fa">&#xf0b0;</i>
+                        </div>
                     </div>
                     <div className="col-1">
                         <a href="">A</a>
